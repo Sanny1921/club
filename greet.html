@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hehe app</title>
+    <style>
+        body{
+            background-color: aqua;
+            display: flex;
+            flex-direction: column;
+            justify-items: center;
+            align-items: center;
+        }
+        body button{
+            background-color: rgb(19, 251, 85);
+            font-weight: 600;
+            border-radius: 10px;
+        }
+    </style>
+
+</head>
+<body >
+    <h1>Greet User</h1>
+    <button onclick="greet()">click me</button>
+    <script>
+        function greet () {
+            let name= prompt("enter your name")
+
+            while (true){
+                if(name==false){
+                    name= prompt("please enter your name first!!")
+                }else{
+                    alert(`welcome ${name} to our app😊`)
+                    break;
+                }
+            }
+            
+        }
+    </script>
+</body>
+</html>

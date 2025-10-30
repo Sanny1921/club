@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smooth scroll webpage</title>
+    <style>
+        header {
+            /*margin-top: -7.8px;*/
+            width:100%;
+            color: aliceblue;
+            padding: 10px 0px;
+            align-items:center;
+            justify-content: center;
+            background-color: black;
+            display: flex;
+            flex-direction: row;position:fixed;
+            top: 0;
+        }
+        header a{
+            text-decoration: none;
+            padding:0 10px;
+            color:white;
+        }
+
+        main{display: flex;
+            text-align: center;
+            flex-direction: column;
+            justify-content: center;
+        }
+        .box{
+            height: 100vh;
+            width:100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            font-size: 32px;
+        }
+        #home{
+            background-color:pink;
+        }
+        #about{
+            background-color: blue;
+        }
+        #contact{
+            background-color:rgb(155, 3, 160);
+        }
+        #login{
+            background-color: rgb(196, 253, 118);
+        }
+        #testimonial{
+            background-color: rgb(157, 7, 32);
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+            <a href="#login">Login</a>
+            <a href="#testimonial">Testimonial</a>
+        </nav>
+    </header>
+    <main>
+        <section class="box" id="home">
+            <h1>Welcome to our webpage</h1>
+            explore to world with us
+        </section>
+
+        <section class="box" id="about">
+            <h1>Boom Baam tours</h1>
+            we are most adventures tour guide we will show yous which others can't
+        </section>
+
+        <section class="box" id="contact">
+            <h1>Boom Baam Cntacts</h1>
+            you can't contact us only we do!
+        </section>
+
+        <section class="box" id="login">
+            <h1>Boom Baam login</h1>
+            hehe login for final tour!
+        </section>
+
+        <section class="box" id="testimonial">
+            <h1>Boom Baam Testimonial</h1>
+            we dont't have testimonial because no one survived our tours not even tour guide!
+        </section>
+</main>
+
+</body>
+</html>
